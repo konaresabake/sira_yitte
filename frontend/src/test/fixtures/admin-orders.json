@@ -1,0 +1,716 @@
+{
+ "count": 15,
+ "next": "http://localhost/api/orders/?page=2&page_size=10",
+ "previous": null,
+ "results": [
+  {
+   "id": 15,
+   "number": "CMD-2026-00015",
+   "status": "annulee",
+   "status_label": "Annulée",
+   "allowed_next_statuses": [],
+   "first_name": "Test",
+   "last_name": "Intégration",
+   "phone": "770001122",
+   "email": "",
+   "address": "Rue 1",
+   "zone": 1,
+   "zone_name": "Dakar",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 2000,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 56000,
+   "total": 58000,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 19,
+     "product": 10,
+     "variant": 144,
+     "product_name": "Sandale Soleil Bordeaux",
+     "color_name": "Bordeaux",
+     "size": 36,
+     "unit_price": 28000,
+     "quantity": 2,
+     "line_total": 56000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:38.648650Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:40.376508Z"
+    },
+    {
+     "from_status": "confirmee",
+     "from_label": "Confirmée",
+     "to_status": "annulee",
+     "to_label": "Annulée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:40.494554Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00015%20d%27un%20montant%20de%2058000%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-08T20:27:38.644289Z",
+   "updated_at": "2026-10-08T20:27:40.494101Z"
+  },
+  {
+   "id": 6,
+   "number": "CMD-2026-00006",
+   "status": "nouvelle",
+   "status_label": "Nouvelle",
+   "allowed_next_statuses": [
+    "confirmee",
+    "preparation",
+    "expediee",
+    "livree",
+    "annulee"
+   ],
+   "first_name": "Khady",
+   "last_name": "Ba",
+   "phone": "70 555 12 12",
+   "email": "",
+   "address": "Rue 24, Pikine",
+   "zone": 2,
+   "zone_name": "Pikine",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 1500,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 14000,
+   "total": 15500,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 8,
+     "product": 5,
+     "variant": 88,
+     "product_name": "Sandale Femme Saly",
+     "color_name": "Camel",
+     "size": 36,
+     "unit_price": 14000,
+     "quantity": 1,
+     "line_total": 14000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.648818Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00006%20d%27un%20montant%20de%2015500%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-08T08:27:29.649185Z",
+   "updated_at": "2026-10-08T20:27:29.647609Z"
+  },
+  {
+   "id": 1,
+   "number": "CMD-2026-00001",
+   "status": "confirmee",
+   "status_label": "Confirmée",
+   "allowed_next_statuses": [
+    "preparation",
+    "expediee",
+    "livree",
+    "annulee"
+   ],
+   "first_name": "Moussa",
+   "last_name": "Fall",
+   "phone": "78 120 33 44",
+   "email": "",
+   "address": "Rue 20, Dakar",
+   "zone": 1,
+   "zone_name": "Dakar",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 2000,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 15000,
+   "total": 17000,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 1,
+     "product": 2,
+     "variant": 34,
+     "product_name": "Sandale Classique Dakar",
+     "color_name": "Noir",
+     "size": 43,
+     "unit_price": 15000,
+     "quantity": 1,
+     "line_total": 15000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.611311Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.612883Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00001%20d%27un%20montant%20de%2017000%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-07T16:27:29.613221Z",
+   "updated_at": "2026-10-08T20:27:29.612398Z"
+  },
+  {
+   "id": 12,
+   "number": "CMD-2026-00012",
+   "status": "annulee",
+   "status_label": "Annulée",
+   "allowed_next_statuses": [],
+   "first_name": "Moussa",
+   "last_name": "Fall",
+   "phone": "78 120 33 44",
+   "email": "",
+   "address": "Rue 37, Dakar",
+   "zone": 1,
+   "zone_name": "Dakar",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 2000,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 38500,
+   "total": 40500,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 15,
+     "product": 6,
+     "variant": 98,
+     "product_name": "Sandale Femme Gorée",
+     "color_name": "Bordeaux",
+     "size": 40,
+     "unit_price": 16500,
+     "quantity": 1,
+     "line_total": 16500
+    },
+    {
+     "id": 16,
+     "product": 8,
+     "variant": 132,
+     "product_name": "Sandale Premium Lac Rose",
+     "color_name": "Noir",
+     "size": 39,
+     "unit_price": 22000,
+     "quantity": 1,
+     "line_total": 22000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.680716Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "annulee",
+     "to_label": "Annulée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.683159Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00012%20d%27un%20montant%20de%2040500%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-07T15:27:29.683520Z",
+   "updated_at": "2026-10-08T20:27:29.682828Z"
+  },
+  {
+   "id": 4,
+   "number": "CMD-2026-00004",
+   "status": "expediee",
+   "status_label": "Expédiée",
+   "allowed_next_statuses": [
+    "livree",
+    "annulee"
+   ],
+   "first_name": "Ibrahima",
+   "last_name": "Ndiaye",
+   "phone": "77 330 90 01",
+   "email": "",
+   "address": "Rue 37, Dakar",
+   "zone": 1,
+   "zone_name": "Dakar",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 2000,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 29500,
+   "total": 31500,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 5,
+     "product": 4,
+     "variant": 70,
+     "product_name": "Sandale Homme Sahel",
+     "color_name": "Noir",
+     "size": 40,
+     "unit_price": 17500,
+     "quantity": 1,
+     "line_total": 17500
+    },
+    {
+     "id": 6,
+     "product": 1,
+     "variant": 19,
+     "product_name": "Sandale Traditionnelle Baobab",
+     "color_name": "Noir",
+     "size": 42,
+     "unit_price": 12000,
+     "quantity": 1,
+     "line_total": 12000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.635722Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.636797Z"
+    },
+    {
+     "from_status": "confirmee",
+     "from_label": "Confirmée",
+     "to_status": "preparation",
+     "to_label": "En préparation",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.638154Z"
+    },
+    {
+     "from_status": "preparation",
+     "from_label": "En préparation",
+     "to_status": "expediee",
+     "to_label": "Expédiée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.639184Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00004%20d%27un%20montant%20de%2031500%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-07T06:27:29.639552Z",
+   "updated_at": "2026-10-08T20:27:29.638826Z"
+  },
+  {
+   "id": 14,
+   "number": "CMD-2026-00014",
+   "status": "expediee",
+   "status_label": "Expédiée",
+   "allowed_next_statuses": [
+    "livree",
+    "annulee"
+   ],
+   "first_name": "Awa",
+   "last_name": "Diop",
+   "phone": "77 412 08 15",
+   "email": "",
+   "address": "Rue 23, Pikine",
+   "zone": 2,
+   "zone_name": "Pikine",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 1500,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 15000,
+   "total": 16500,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 18,
+     "product": 2,
+     "variant": 37,
+     "product_name": "Sandale Classique Dakar",
+     "color_name": "Beige",
+     "size": 39,
+     "unit_price": 15000,
+     "quantity": 1,
+     "line_total": 15000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.700647Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.702066Z"
+    },
+    {
+     "from_status": "confirmee",
+     "from_label": "Confirmée",
+     "to_status": "preparation",
+     "to_label": "En préparation",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.703361Z"
+    },
+    {
+     "from_status": "preparation",
+     "from_label": "En préparation",
+     "to_status": "expediee",
+     "to_label": "Expédiée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.704582Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00014%20d%27un%20montant%20de%2016500%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-06T18:27:29.704861Z",
+   "updated_at": "2026-10-08T20:27:29.704167Z"
+  },
+  {
+   "id": 10,
+   "number": "CMD-2026-00010",
+   "status": "expediee",
+   "status_label": "Expédiée",
+   "allowed_next_statuses": [
+    "livree",
+    "annulee"
+   ],
+   "first_name": "Khady",
+   "last_name": "Ba",
+   "phone": "70 555 12 12",
+   "email": "",
+   "address": "Rue 9, Pikine",
+   "zone": 2,
+   "zone_name": "Pikine",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 1500,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 16500,
+   "total": 18000,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 13,
+     "product": 6,
+     "variant": 107,
+     "product_name": "Sandale Femme Gorée",
+     "color_name": "Camel",
+     "size": 37,
+     "unit_price": 16500,
+     "quantity": 1,
+     "line_total": 16500
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.668078Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.669340Z"
+    },
+    {
+     "from_status": "confirmee",
+     "from_label": "Confirmée",
+     "to_status": "preparation",
+     "to_label": "En préparation",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.670374Z"
+    },
+    {
+     "from_status": "preparation",
+     "from_label": "En préparation",
+     "to_status": "expediee",
+     "to_label": "Expédiée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.671659Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00010%20d%27un%20montant%20de%2018000%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-06T06:27:29.671878Z",
+   "updated_at": "2026-10-08T20:27:29.671282Z"
+  },
+  {
+   "id": 2,
+   "number": "CMD-2026-00002",
+   "status": "livree",
+   "status_label": "Livrée",
+   "allowed_next_statuses": [],
+   "first_name": "Moussa",
+   "last_name": "Fall",
+   "phone": "78 120 33 44",
+   "email": "",
+   "address": "Rue 8, Dakar",
+   "zone": 1,
+   "zone_name": "Dakar",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 2000,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 29000,
+   "total": 31000,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 2,
+     "product": 5,
+     "variant": 85,
+     "product_name": "Sandale Femme Saly",
+     "color_name": "Miel",
+     "size": 39,
+     "unit_price": 14000,
+     "quantity": 1,
+     "line_total": 14000
+    },
+    {
+     "id": 3,
+     "product": 2,
+     "variant": 34,
+     "product_name": "Sandale Classique Dakar",
+     "color_name": "Noir",
+     "size": 43,
+     "unit_price": 15000,
+     "quantity": 1,
+     "line_total": 15000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.618091Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.619532Z"
+    },
+    {
+     "from_status": "confirmee",
+     "from_label": "Confirmée",
+     "to_status": "preparation",
+     "to_label": "En préparation",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.620589Z"
+    },
+    {
+     "from_status": "preparation",
+     "from_label": "En préparation",
+     "to_status": "expediee",
+     "to_label": "Expédiée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.621812Z"
+    },
+    {
+     "from_status": "expediee",
+     "from_label": "Expédiée",
+     "to_status": "livree",
+     "to_label": "Livrée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.623099Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00002%20d%27un%20montant%20de%2031000%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-05T19:27:29.623413Z",
+   "updated_at": "2026-10-08T20:27:29.622560Z"
+  },
+  {
+   "id": 5,
+   "number": "CMD-2026-00005",
+   "status": "annulee",
+   "status_label": "Annulée",
+   "allowed_next_statuses": [],
+   "first_name": "Khady",
+   "last_name": "Ba",
+   "phone": "70 555 12 12",
+   "email": "",
+   "address": "Rue 13, Pikine",
+   "zone": 2,
+   "zone_name": "Pikine",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 1500,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 18000,
+   "total": 19500,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 7,
+     "product": 7,
+     "variant": 121,
+     "product_name": "Sandale Homme Saloum",
+     "color_name": "Noir",
+     "size": 43,
+     "unit_price": 18000,
+     "quantity": 1,
+     "line_total": 18000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.642897Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "annulee",
+     "to_label": "Annulée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.645692Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00005%20d%27un%20montant%20de%2019500%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-05T10:27:29.645906Z",
+   "updated_at": "2026-10-08T20:27:29.645380Z"
+  },
+  {
+   "id": 3,
+   "number": "CMD-2026-00003",
+   "status": "livree",
+   "status_label": "Livrée",
+   "allowed_next_statuses": [],
+   "first_name": "Awa",
+   "last_name": "Diop",
+   "phone": "77 412 08 15",
+   "email": "",
+   "address": "Rue 17, Pikine",
+   "zone": 2,
+   "zone_name": "Pikine",
+   "delivery_mode": "livraison",
+   "delivery_mode_label": "Livraison à domicile",
+   "delivery_fee": 1500,
+   "delivery_fee_to_confirm": false,
+   "subtotal": 14000,
+   "total": 15500,
+   "notes": "",
+   "admin_notes": "",
+   "items": [
+    {
+     "id": 4,
+     "product": 5,
+     "variant": 88,
+     "product_name": "Sandale Femme Saly",
+     "color_name": "Camel",
+     "size": 36,
+     "unit_price": 14000,
+     "quantity": 1,
+     "line_total": 14000
+    }
+   ],
+   "events": [
+    {
+     "from_status": "",
+     "from_label": "",
+     "to_status": "nouvelle",
+     "to_label": "Nouvelle",
+     "note": "Commande créée",
+     "created_at": "2026-10-08T20:27:29.626520Z"
+    },
+    {
+     "from_status": "nouvelle",
+     "from_label": "Nouvelle",
+     "to_status": "confirmee",
+     "to_label": "Confirmée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.627830Z"
+    },
+    {
+     "from_status": "confirmee",
+     "from_label": "Confirmée",
+     "to_status": "preparation",
+     "to_label": "En préparation",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.629151Z"
+    },
+    {
+     "from_status": "preparation",
+     "from_label": "En préparation",
+     "to_status": "expediee",
+     "to_label": "Expédiée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.630281Z"
+    },
+    {
+     "from_status": "expediee",
+     "from_label": "Expédiée",
+     "to_status": "livree",
+     "to_label": "Livrée",
+     "note": "",
+     "created_at": "2026-10-08T20:27:29.631393Z"
+    }
+   ],
+   "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00003%20d%27un%20montant%20de%2015500%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+   "created_at": "2026-10-04T20:27:29.631603Z",
+   "updated_at": "2026-10-08T20:27:29.631075Z"
+  }
+ ]
+}

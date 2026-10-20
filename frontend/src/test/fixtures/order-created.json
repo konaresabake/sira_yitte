@@ -1,0 +1,53 @@
+{
+ "id": 16,
+ "number": "CMD-2026-00016",
+ "status": "nouvelle",
+ "status_label": "Nouvelle",
+ "allowed_next_statuses": [
+  "confirmee",
+  "preparation",
+  "expediee",
+  "livree",
+  "annulee"
+ ],
+ "first_name": "Awa",
+ "last_name": "Diop",
+ "phone": "774120815",
+ "email": "",
+ "address": "Rue 10, Pikine",
+ "zone": 1,
+ "zone_name": "Dakar",
+ "delivery_mode": "livraison",
+ "delivery_mode_label": "Livraison à domicile",
+ "delivery_fee": 2000,
+ "delivery_fee_to_confirm": false,
+ "subtotal": 28000,
+ "total": 30000,
+ "notes": "",
+ "items": [
+  {
+   "id": 20,
+   "product": 10,
+   "variant": 144,
+   "product_name": "Sandale Soleil Bordeaux",
+   "color_name": "Bordeaux",
+   "size": 36,
+   "unit_price": 28000,
+   "quantity": 1,
+   "line_total": 28000
+  }
+ ],
+ "events": [
+  {
+   "from_status": "",
+   "from_label": "",
+   "to_status": "nouvelle",
+   "to_label": "Nouvelle",
+   "note": "Commande créée",
+   "created_at": "2026-10-08T20:28:04.356144Z"
+  }
+ ],
+ "whatsapp_url": "https://wa.me/221775857358?text=Bonjour%2C%20je%20viens%20de%20passer%20la%20commande%20CMD-2026-00016%20d%27un%20montant%20de%2030000%20FCFA.%20Pouvez-vous%20me%20confirmer%20sa%20prise%20en%20charge%20%3F",
+ "created_at": "2026-10-08T20:28:04.353512Z",
+ "updated_at": "2026-10-08T20:28:04.353549Z"
+}

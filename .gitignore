@@ -1,0 +1,9 @@
+.env
+node_modules/
+dist/
+__pycache__/
+*.sqlite3
+media/
+staticfiles/
+venv/
+.vercel

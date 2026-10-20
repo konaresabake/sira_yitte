@@ -1,0 +1,295 @@
+[
+ {
+  "id": 9,
+  "name": "Sandale Sahara Gris",
+  "slug": "sandale-sahara-gris",
+  "category": {
+   "id": 1,
+   "name": "Homme",
+   "slug": "homme"
+  },
+  "price": 24000,
+  "old_price": null,
+  "discount_percent": 0,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": true,
+  "popularity": 110,
+  "colors": [
+   {
+    "id": 7,
+    "name": "Gris",
+    "hex_code": "#8d8a86"
+   }
+  ],
+  "sizes": [
+   40,
+   41,
+   42,
+   43,
+   44,
+   45
+  ],
+  "image": "http://localhost/media/products/2026/10/sandale-sahara-gris.webp",
+  "total_stock": 24,
+  "in_stock": true
+ },
+ {
+  "id": 10,
+  "name": "Sandale Soleil Bordeaux",
+  "slug": "sandale-soleil-bordeaux",
+  "category": {
+   "id": 5,
+   "name": "Premium",
+   "slug": "premium"
+  },
+  "price": 28000,
+  "old_price": 32000,
+  "discount_percent": 12,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": true,
+  "popularity": 105,
+  "colors": [
+   {
+    "id": 6,
+    "name": "Bordeaux",
+    "hex_code": "#6b2a2a"
+   }
+  ],
+  "sizes": [
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "image": "http://localhost/media/products/2026/10/sandale-soleil-bordeaux.webp",
+  "total_stock": 25,
+  "in_stock": true
+ },
+ {
+  "id": 3,
+  "name": "Sandale Premium Teranga",
+  "slug": "sandale-premium-teranga",
+  "category": {
+   "id": 5,
+   "name": "Premium",
+   "slug": "premium"
+  },
+  "price": 20000,
+  "old_price": 25000,
+  "discount_percent": 20,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": false,
+  "popularity": 100,
+  "colors": [
+   {
+    "id": 5,
+    "name": "Camel",
+    "hex_code": "#b07a45"
+   },
+   {
+    "id": 1,
+    "name": "Marron",
+    "hex_code": "#7a4a2a"
+   },
+   {
+    "id": 2,
+    "name": "Noir",
+    "hex_code": "#221a15"
+   }
+  ],
+  "sizes": [
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44
+  ],
+  "image": null,
+  "total_stock": 80,
+  "in_stock": true
+ },
+ {
+  "id": 1,
+  "name": "Sandale Traditionnelle Baobab",
+  "slug": "sandale-traditionnelle-baobab",
+  "category": {
+   "id": 3,
+   "name": "Traditionnelle",
+   "slug": "traditionnelle"
+  },
+  "price": 12000,
+  "old_price": 15000,
+  "discount_percent": 20,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": false,
+  "popularity": 95,
+  "colors": [
+   {
+    "id": 1,
+    "name": "Marron",
+    "hex_code": "#7a4a2a"
+   },
+   {
+    "id": 4,
+    "name": "Miel",
+    "hex_code": "#c8893a"
+   },
+   {
+    "id": 2,
+    "name": "Noir",
+    "hex_code": "#221a15"
+   }
+  ],
+  "sizes": [
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44
+  ],
+  "image": null,
+  "total_stock": 80,
+  "in_stock": true
+ },
+ {
+  "id": 2,
+  "name": "Sandale Classique Dakar",
+  "slug": "sandale-classique-dakar",
+  "category": {
+   "id": 4,
+   "name": "Classique",
+   "slug": "classique"
+  },
+  "price": 15000,
+  "old_price": null,
+  "discount_percent": 0,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": false,
+  "popularity": 88,
+  "colors": [
+   {
+    "id": 3,
+    "name": "Beige",
+    "hex_code": "#d6bc93"
+   },
+   {
+    "id": 1,
+    "name": "Marron",
+    "hex_code": "#7a4a2a"
+   },
+   {
+    "id": 2,
+    "name": "Noir",
+    "hex_code": "#221a15"
+   }
+  ],
+  "sizes": [
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44
+  ],
+  "image": null,
+  "total_stock": 93,
+  "in_stock": true
+ },
+ {
+  "id": 5,
+  "name": "Sandale Femme Saly",
+  "slug": "sandale-femme-saly",
+  "category": {
+   "id": 2,
+   "name": "Femme",
+   "slug": "femme"
+  },
+  "price": 14000,
+  "old_price": null,
+  "discount_percent": 0,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": false,
+  "popularity": 76,
+  "colors": [
+   {
+    "id": 3,
+    "name": "Beige",
+    "hex_code": "#d6bc93"
+   },
+   {
+    "id": 5,
+    "name": "Camel",
+    "hex_code": "#b07a45"
+   },
+   {
+    "id": 4,
+    "name": "Miel",
+    "hex_code": "#c8893a"
+   }
+  ],
+  "sizes": [
+   36,
+   37,
+   38,
+   39,
+   40,
+   41
+  ],
+  "image": null,
+  "total_stock": 62,
+  "in_stock": true
+ },
+ {
+  "id": 4,
+  "name": "Sandale Homme Sahel",
+  "slug": "sandale-homme-sahel",
+  "category": {
+   "id": 1,
+   "name": "Homme",
+   "slug": "homme"
+  },
+  "price": 17500,
+  "old_price": null,
+  "discount_percent": 0,
+  "is_featured": true,
+  "is_active": true,
+  "is_new": false,
+  "popularity": 70,
+  "colors": [
+   {
+    "id": 1,
+    "name": "Marron",
+    "hex_code": "#7a4a2a"
+   },
+   {
+    "id": 2,
+    "name": "Noir",
+    "hex_code": "#221a15"
+   }
+  ],
+  "sizes": [
+   40,
+   41,
+   42,
+   43,
+   44,
+   45
+  ],
+  "image": null,
+  "total_stock": 57,
+  "in_stock": true
+ }
+]

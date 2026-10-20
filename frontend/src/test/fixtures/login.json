@@ -1,0 +1,14 @@
+{
+ "refresh": "refresh.jwt.test",
+ "access": "access.jwt.test",
+ "user": {
+  "id": 1,
+  "email": "admin@sirayitte.sn",
+  "first_name": "Admin",
+  "last_name": "Sira Yitte",
+  "phone": "",
+  "role": "admin",
+  "is_staff": true,
+  "date_joined": "2026-10-08T20:27:28.799103Z"
+ }
+}

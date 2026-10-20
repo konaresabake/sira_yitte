@@ -1,0 +1,112 @@
+{
+ "id": 10,
+ "name": "Sandale Soleil Bordeaux",
+ "slug": "sandale-soleil-bordeaux",
+ "category": {
+  "id": 5,
+  "name": "Premium",
+  "slug": "premium"
+ },
+ "price": 28000,
+ "old_price": 32000,
+ "discount_percent": 12,
+ "is_featured": true,
+ "is_active": true,
+ "is_new": true,
+ "popularity": 105,
+ "colors": [
+  {
+   "id": 6,
+   "name": "Bordeaux",
+   "hex_code": "#6b2a2a"
+  }
+ ],
+ "sizes": [
+  36,
+  37,
+  38,
+  39,
+  40,
+  41
+ ],
+ "image": "http://localhost/media/products/2026/10/sandale-soleil-bordeaux.webp",
+ "total_stock": 25,
+ "in_stock": true,
+ "description": "Cuir bordeaux gaufré, nœud et franges dorées en forme de soleil. Notre pièce la plus précieuse, entièrement faite main.",
+ "material": "Cuir de vache véritable, semelle en cuir et gomme",
+ "variants": [
+  {
+   "id": 144,
+   "product": 10,
+   "color": 6,
+   "color_name": "Bordeaux",
+   "hex_code": "#6b2a2a",
+   "size": 36,
+   "stock": 5,
+   "in_stock": true
+  },
+  {
+   "id": 145,
+   "product": 10,
+   "color": 6,
+   "color_name": "Bordeaux",
+   "hex_code": "#6b2a2a",
+   "size": 37,
+   "stock": 2,
+   "in_stock": true
+  },
+  {
+   "id": 146,
+   "product": 10,
+   "color": 6,
+   "color_name": "Bordeaux",
+   "hex_code": "#6b2a2a",
+   "size": 38,
+   "stock": 9,
+   "in_stock": true
+  },
+  {
+   "id": 147,
+   "product": 10,
+   "color": 6,
+   "color_name": "Bordeaux",
+   "hex_code": "#6b2a2a",
+   "size": 39,
+   "stock": 6,
+   "in_stock": true
+  },
+  {
+   "id": 148,
+   "product": 10,
+   "color": 6,
+   "color_name": "Bordeaux",
+   "hex_code": "#6b2a2a",
+   "size": 40,
+   "stock": 3,
+   "in_stock": true
+  },
+  {
+   "id": 149,
+   "product": 10,
+   "color": 6,
+   "color_name": "Bordeaux",
+   "hex_code": "#6b2a2a",
+   "size": 41,
+   "stock": 0,
+   "in_stock": false
+  }
+ ],
+ "images": [
+  {
+   "id": 2,
+   "image": "http://localhost/media/products/2026/10/sandale-soleil-bordeaux.webp",
+   "alt_text": "Sandale Soleil Bordeaux",
+   "color": 6,
+   "color_name": "Bordeaux",
+   "is_main": true,
+   "position": 0
+  }
+ ],
+ "created_at": "2026-10-08T20:27:28.753663Z",
+ "updated_at": "2026-10-08T20:27:28.794173Z"
+}

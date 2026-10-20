@@ -1,0 +1,63 @@
+{
+ "count": 7,
+ "next": null,
+ "previous": null,
+ "results": [
+  {
+   "phone": "78 120 33 44",
+   "first_name": "Moussa",
+   "last_name": "Fall",
+   "orders_count": 5,
+   "total_spent": 83500,
+   "last_order_at": "2026-10-07T16:27:29.613221Z"
+  },
+  {
+   "phone": "77 888 45 67",
+   "first_name": "Cheikh",
+   "last_name": "Sy",
+   "orders_count": 2,
+   "total_spent": 61000,
+   "last_order_at": "2026-10-03T13:27:29.665297Z"
+  },
+  {
+   "phone": "70 555 12 12",
+   "first_name": "Khady",
+   "last_name": "Ba",
+   "orders_count": 3,
+   "total_spent": 33500,
+   "last_order_at": "2026-10-08T08:27:29.649185Z"
+  },
+  {
+   "phone": "77 412 08 15",
+   "first_name": "Awa",
+   "last_name": "Diop",
+   "orders_count": 2,
+   "total_spent": 32000,
+   "last_order_at": "2026-10-06T18:27:29.704861Z"
+  },
+  {
+   "phone": "77 330 90 01",
+   "first_name": "Ibrahima",
+   "last_name": "Ndiaye",
+   "orders_count": 1,
+   "total_spent": 31500,
+   "last_order_at": "2026-10-07T06:27:29.639552Z"
+  },
+  {
+   "phone": "76 100 20 30",
+   "first_name": "Omar",
+   "last_name": "Gueye",
+   "orders_count": 1,
+   "total_spent": 15500,
+   "last_order_at": "2026-10-03T10:27:29.694382Z"
+  },
+  {
+   "phone": "770001122",
+   "first_name": "Test",
+   "last_name": "Intégration",
+   "orders_count": 1,
+   "total_spent": 0,
+   "last_order_at": "2026-10-08T20:27:38.644289Z"
+  }
+ ]
+}

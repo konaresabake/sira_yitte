@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "name": "Homme",
+  "slug": "homme",
+  "description": "",
+  "image": null,
+  "is_active": true,
+  "position": 0,
+  "products_count": 3
+ },
+ {
+  "id": 2,
+  "name": "Femme",
+  "slug": "femme",
+  "description": "",
+  "image": null,
+  "is_active": true,
+  "position": 1,
+  "products_count": 2
+ },
+ {
+  "id": 3,
+  "name": "Traditionnelle",
+  "slug": "traditionnelle",
+  "description": "",
+  "image": null,
+  "is_active": true,
+  "position": 2,
+  "products_count": 1
+ },
+ {
+  "id": 4,
+  "name": "Classique",
+  "slug": "classique",
+  "description": "",
+  "image": null,
+  "is_active": true,
+  "position": 3,
+  "products_count": 1
+ },
+ {
+  "id": 5,
+  "name": "Premium",
+  "slug": "premium",
+  "description": "",
+  "image": null,
+  "is_active": true,
+  "position": 4,
+  "products_count": 3
+ }
+]

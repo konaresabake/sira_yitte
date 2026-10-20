@@ -1,0 +1,49 @@
+# Blueprint Render : base PostgreSQL + API Django.
+# Render -> New -> Blueprint -> choisissez votre dépôt GitHub (ce fichier doit être à la racine du dépôt).
+# Les variables "sync: false" vous sont demandées à la création : voir README.md, étape 3.
+
+databases:
+  - name: sira-yitte-db
+    databaseName: sira_yitte
+    user: sira
+    region: frankfurt        # même région que le service web (obligatoire pour la connexion interne)
+    plan: free               # ATTENTION : une base gratuite expire après 30 jours et n'a pas de sauvegarde.
+                             # Passez à un plan payant (Render > la base > Settings) avant l'ouverture au public.
+
+services:
+  - type: web
+    name: sira-yitte-api
+    runtime: python
+    region: frankfurt
+    plan: free               # s'endort après 15 min sans visite (réveil d'environ 1 min)
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py bootstrap
+    startCommand: gunicorn config.wsgi:application --timeout 120
+    healthCheckPath: /api/health/
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: DEBUG
+        value: "False"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: sira-yitte-db
+          property: connectionString
+      - key: WEB_CONCURRENCY
+        value: "2"
+      # --- à saisir à la création ---
+      - key: CORS_ALLOWED_ORIGINS        # adresse du site Vercel, sans « / » final : https://mon-site.vercel.app
+        sync: false
+      - key: CLOUDINARY_URL              # stockage des photos (le disque de Render est effacé à chaque redémarrage)
+        sync: false
+      - key: DJANGO_SUPERUSER_EMAIL      # votre compte administrateur
+        sync: false
+      - key: DJANGO_SUPERUSER_PASSWORD   # 12 caractères minimum
+        sync: false
+      # --- réglages de la boutique (modifiables ensuite dans le tableau de bord) ---
+      - key: SHOP_WHATSAPP
+        value: "221775857358"
+      - key: LOAD_DEMO_DATA              # "true" pour charger les 10 produits de démonstration (une seule fois)
+        value: "false"

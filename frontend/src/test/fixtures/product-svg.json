@@ -1,0 +1,263 @@
+{
+ "id": 2,
+ "name": "Sandale Classique Dakar",
+ "slug": "sandale-classique-dakar",
+ "category": {
+  "id": 4,
+  "name": "Classique",
+  "slug": "classique"
+ },
+ "price": 15000,
+ "old_price": null,
+ "discount_percent": 0,
+ "is_featured": true,
+ "is_active": true,
+ "is_new": false,
+ "popularity": 88,
+ "colors": [
+  {
+   "id": 3,
+   "name": "Beige",
+   "hex_code": "#d6bc93"
+  },
+  {
+   "id": 1,
+   "name": "Marron",
+   "hex_code": "#7a4a2a"
+  },
+  {
+   "id": 2,
+   "name": "Noir",
+   "hex_code": "#221a15"
+  }
+ ],
+ "sizes": [
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44
+ ],
+ "image": null,
+ "total_stock": 93,
+ "in_stock": true,
+ "description": "La sandale de tous les jours : brides croisées, semelle souple et cuir qui se patine avec le temps.",
+ "material": "Cuir de vache véritable, semelle en cuir et gomme",
+ "variants": [
+  {
+   "id": 36,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 38,
+   "stock": 0,
+   "in_stock": false
+  },
+  {
+   "id": 37,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 39,
+   "stock": 7,
+   "in_stock": true
+  },
+  {
+   "id": 38,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 40,
+   "stock": 5,
+   "in_stock": true
+  },
+  {
+   "id": 39,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 41,
+   "stock": 2,
+   "in_stock": true
+  },
+  {
+   "id": 40,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 42,
+   "stock": 9,
+   "in_stock": true
+  },
+  {
+   "id": 41,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 43,
+   "stock": 6,
+   "in_stock": true
+  },
+  {
+   "id": 42,
+   "product": 2,
+   "color": 3,
+   "color_name": "Beige",
+   "hex_code": "#d6bc93",
+   "size": 44,
+   "stock": 3,
+   "in_stock": true
+  },
+  {
+   "id": 22,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 38,
+   "stock": 4,
+   "in_stock": true
+  },
+  {
+   "id": 23,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 39,
+   "stock": 2,
+   "in_stock": true
+  },
+  {
+   "id": 24,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 40,
+   "stock": 9,
+   "in_stock": true
+  },
+  {
+   "id": 25,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 41,
+   "stock": 6,
+   "in_stock": true
+  },
+  {
+   "id": 26,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 42,
+   "stock": 3,
+   "in_stock": true
+  },
+  {
+   "id": 27,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 43,
+   "stock": 0,
+   "in_stock": false
+  },
+  {
+   "id": 28,
+   "product": 2,
+   "color": 1,
+   "color_name": "Marron",
+   "hex_code": "#7a4a2a",
+   "size": 44,
+   "stock": 7,
+   "in_stock": true
+  },
+  {
+   "id": 29,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 38,
+   "stock": 8,
+   "in_stock": true
+  },
+  {
+   "id": 30,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 39,
+   "stock": 5,
+   "in_stock": true
+  },
+  {
+   "id": 31,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 40,
+   "stock": 2,
+   "in_stock": true
+  },
+  {
+   "id": 32,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 41,
+   "stock": 9,
+   "in_stock": true
+  },
+  {
+   "id": 33,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 42,
+   "stock": 5,
+   "in_stock": true
+  },
+  {
+   "id": 34,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 43,
+   "stock": 1,
+   "in_stock": true
+  },
+  {
+   "id": 35,
+   "product": 2,
+   "color": 2,
+   "color_name": "Noir",
+   "hex_code": "#221a15",
+   "size": 44,
+   "stock": 0,
+   "in_stock": false
+  }
+ ],
+ "images": [],
+ "created_at": "2026-06-10T20:27:28.753663Z",
+ "updated_at": "2026-10-08T20:27:28.758997Z"
+}

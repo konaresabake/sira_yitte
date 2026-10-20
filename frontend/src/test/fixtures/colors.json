@@ -1,0 +1,37 @@
+[
+ {
+  "id": 3,
+  "name": "Beige",
+  "hex_code": "#d6bc93"
+ },
+ {
+  "id": 6,
+  "name": "Bordeaux",
+  "hex_code": "#6b2a2a"
+ },
+ {
+  "id": 5,
+  "name": "Camel",
+  "hex_code": "#b07a45"
+ },
+ {
+  "id": 7,
+  "name": "Gris",
+  "hex_code": "#8d8a86"
+ },
+ {
+  "id": 1,
+  "name": "Marron",
+  "hex_code": "#7a4a2a"
+ },
+ {
+  "id": 4,
+  "name": "Miel",
+  "hex_code": "#c8893a"
+ },
+ {
+  "id": 2,
+  "name": "Noir",
+  "hex_code": "#221a15"
+ }
+]
